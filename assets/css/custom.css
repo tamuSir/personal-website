@@ -1,0 +1,12 @@
+
+.prevent-select-about {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .prevent-select-resume {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
