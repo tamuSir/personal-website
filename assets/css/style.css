@@ -78,9 +78,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
+  position: relative;
+  display: inline-block;
   color: #eb4f36;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
 }
 
 #header img {
